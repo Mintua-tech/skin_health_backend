@@ -1,8 +1,8 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Virtual environment
+# Virtual environments
 tf-env/
 venv/
 
@@ -10,9 +10,11 @@ venv/
 db.sqlite3
 media/
 
-# Environment variables
-.env
+# ML models
+models/*.h5
 
 # VS Code
 .vscode/
 
+# Environment variables
+.env
